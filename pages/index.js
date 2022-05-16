@@ -1,8 +1,9 @@
 import Head from "next/head";
+import Layout from "components/organisms/Layout/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>Rekrutacja do LO - Katolik Chorzów</title>
         <meta
@@ -16,6 +17,6 @@ export default function Home() {
         Na tej stronie znajdą się najważniejsze informacje dla kandydatów do
         liceum ogólnokształcącego.
       </p>
-    </div>
+    </Layout>
   );
 }
