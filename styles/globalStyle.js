@@ -9,5 +9,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
   }
 `;
