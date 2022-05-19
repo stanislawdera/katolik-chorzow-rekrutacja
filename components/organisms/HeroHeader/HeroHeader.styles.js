@@ -17,4 +17,19 @@ export const StyledHeroHeader = styled.header`
     font-weight: normal;
     line-height: 1.1;
   }
+
+  ${({ theme }) => theme.media.desktop} {
+    padding: calc(${({ theme }) => theme.spacing.xl} * 4);
+    text-align: left;
+
+    h1 {
+      font-size: ${({ theme }) => theme.fontSizes.xxl};
+    }
+
+    h2 {
+      font-size: ${({ theme }) => theme.fontSizes.xxxl};
+      line-height: 1;
+      padding-bottom: ${({ theme }) => theme.spacing.sm};
+    }
+  }
 `;
