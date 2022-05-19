@@ -47,6 +47,27 @@ export default function Home() {
           </ArrowLink>
         </FeatureBlock>
       </BlocksRow>
+      <BlocksRow>
+        <FeatureBlock color="blue">
+          <h3>
+            Dokumenty
+            <br />i do pobrania
+          </h3>
+          <ArrowLink href="/dokumenty" size="md">
+            Zobacz
+          </ArrowLink>
+        </FeatureBlock>
+        <FeatureBlock color="green">
+          <h3>
+            Rekrutacja
+            <br />
+            krok po kroku
+          </h3>
+          <ArrowLink href="/krok-po-kroku" size="md">
+            Zobacz
+          </ArrowLink>
+        </FeatureBlock>
+      </BlocksRow>
     </Layout>
   );
 }
