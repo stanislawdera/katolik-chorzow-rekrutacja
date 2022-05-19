@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledArrowLink = styled.a`
-  color: white;
+  color: ${({ theme, color }) => (color ? theme.colors[color] : "white")};
   text-decoration: none;
   cursor: pointer;
   font-weight: bold;
@@ -9,6 +9,9 @@ export const StyledArrowLink = styled.a`
     size ? theme.fontSizes[size] : theme.fontSizes.sm};
 
   svg {
+    path {
+      fill: ${({ theme, color }) => (color ? theme.colors[color] : "white")};
+    }
     width: ${({ size, theme }) =>
       size ? theme.fontSizes[size] : theme.fontSizes.sm};
     vertical-align: middle;
