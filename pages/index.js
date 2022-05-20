@@ -4,6 +4,18 @@ import HeroHeader from "components/organisms/HeroHeader/HeroHeader";
 import { FeatureBlock } from "components/molecules/FeatureBlock/FeatureBlock.styles";
 import ArrowLink from "components/atoms/ArrowLink/ArrowLink";
 import { BlocksRow } from "components/organisms/BlocksRow/BlocksRow.styles";
+import { Container } from "components/atoms/Container/Container.styles";
+import ReasonBlock from "components/molecules/ReasonBlock/ReasonBlock";
+import Icon from "@mdi/react";
+import {
+  mdiAccountGroup,
+  mdiAlbum,
+  mdiCheckDecagram,
+  mdiImageFilterHdr,
+  mdiMap,
+} from "@mdi/js";
+import { BlocksGrid } from "components/molecules/BlocksGrid/BlocksGrid.styles";
+import { Heading } from "components/atoms/Heading/Heading.styles";
 
 export default function Home() {
   return (
@@ -47,6 +59,27 @@ export default function Home() {
           </ArrowLink>
         </FeatureBlock>
       </BlocksRow>
+      <Container wide>
+        <Heading>Dlaczego Katolik?</Heading>
+        <BlocksGrid mb="xl">
+          <ReasonBlock
+            title="Samorząd"
+            icon={<Icon path={mdiAccountGroup} />}
+          ></ReasonBlock>
+          <ReasonBlock
+            title="Wspinaczka"
+            icon={<Icon path={mdiImageFilterHdr} />}
+          ></ReasonBlock>
+          <ReasonBlock
+            title="Wysokie miejsca w rankingach"
+            icon={<Icon path={mdiCheckDecagram} />}
+          ></ReasonBlock>
+          <ReasonBlock
+            title="Wycieczki zagraniczne"
+            icon={<Icon path={mdiMap} />}
+          ></ReasonBlock>
+        </BlocksGrid>
+      </Container>
       <BlocksRow>
         <FeatureBlock color="blue">
           <h3>

@@ -6,7 +6,7 @@ export const Container = styled.div`
   margin: ${({ theme }) => theme.spacing.md} 0;
 
   ${({ theme }) => theme.media.desktop} {
-    width: 800px;
+    width: ${({ wide }) => (wide ? "1000px" : "800px")};
     margin-left: auto;
     margin-right: auto;
   }

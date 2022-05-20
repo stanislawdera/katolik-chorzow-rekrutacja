@@ -7,13 +7,13 @@ export default function ArrowLink({
   children,
   size = "sm",
   href = "/",
-  color = false,
+  color,
 }) {
   return (
     <Link href={href} passHref>
       <StyledArrowLink size={size} color={color}>
         {children}
-        <Icon path={mdiArrowRight} className="arrow" color={false} />
+        <Icon path={mdiArrowRight} className="arrow" color={color} />
       </StyledArrowLink>
     </Link>
   );
