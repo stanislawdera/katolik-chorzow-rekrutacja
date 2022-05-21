@@ -8,10 +8,15 @@ export default function ArrowLink({
   size = "sm",
   href = "/",
   color,
+  newTab = false,
 }) {
   return (
     <Link href={href} passHref>
-      <StyledArrowLink size={size} color={color}>
+      <StyledArrowLink
+        size={size}
+        color={color}
+        target={newTab ? "_blank" : "_self"}
+      >
         {children}
         <Icon path={mdiArrowRight} className="arrow" color={color} />
       </StyledArrowLink>

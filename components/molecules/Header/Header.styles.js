@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  background-color: ${({ theme }) => theme.colors.green};
+  background-color: ${({ theme, color }) =>
+    color ? theme.colors[color] : theme.colors.green};
   color: white;
   text-align: center;
   padding: calc(${({ theme }) => theme.spacing.xl} * 1.5)

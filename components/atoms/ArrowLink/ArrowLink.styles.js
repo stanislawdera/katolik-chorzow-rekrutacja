@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { spacer } from "styles/spacer";
 
 export const StyledArrowLink = styled.a`
+  ${spacer};
   color: ${({ theme, color }) => (color ? theme.colors[color] : "white")};
   text-decoration: none;
   cursor: pointer;

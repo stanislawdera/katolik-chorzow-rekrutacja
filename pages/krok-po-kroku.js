@@ -26,12 +26,12 @@ export default function StepByStepPage() {
         </Box>
         <DateBlock
           deadline="16 maja - 20 czerwca 15:00"
-          description="Składanie wniosków w systemie elektronicznym oraz dostarczanie karty informacyjnej do sekretariatu Katolika."
+          description="Składanie wniosków w systemie elektronicznym oraz dostarczanie karty zgłoszeniowej do sekretariatu Katolika."
           link="https://katolikchorzow-my.sharepoint.com/:b:/g/personal/it_katolik-chorzow_edu_pl/EWvqcdxxSy9KgQeG3ArMaGkB5sP08nUijQJpwEObK14Gmw?e=wZ08qN"
-          linkDescription="Pobierz kartę informacyjną"
+          linkDescription="Pobierz kartę zgłoszeniową"
         />
         <Box green>
-          Kartę informacyjną należy złożyć w sekretariacie Katolika niezależnie
+          Kartę zgłoszeniową należy złożyć w sekretariacie Katolika niezależnie
           od tego czy jest on Twoją szkołą pierwszego wyboru.
         </Box>
         <DateBlock
