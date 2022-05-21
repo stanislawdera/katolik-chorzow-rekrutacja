@@ -10,5 +10,6 @@ export const BlocksGrid = styled.div`
 
   ${({ theme }) => theme.media.desktop} {
     flex-wrap: wrap;
+    overflow-x: visible;
   }
 `;
