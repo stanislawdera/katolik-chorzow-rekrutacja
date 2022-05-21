@@ -13,6 +13,7 @@ import {
   mdiCheckDecagram,
   mdiImageFilterHdr,
   mdiMap,
+  mdiYoutube,
 } from "@mdi/js";
 import { BlocksGrid } from "components/molecules/BlocksGrid/BlocksGrid.styles";
 import { Heading } from "components/atoms/Heading/Heading.styles";
@@ -36,17 +37,7 @@ export default function Home() {
         <h1>Rekrutacja 2022</h1>
       </HeroHeader>
       <BlocksRow>
-        <FeatureBlock color="red">
-          <h3>
-            248 sekund
-            <br />
-            dookoła szkoły
-          </h3>
-          <ArrowLink href="https://youtu.be/SexCpPPKOi4" size="md">
-            Obejrzyj film
-          </ArrowLink>
-        </FeatureBlock>
-        <FeatureBlock color="yellow">
+        <FeatureBlock color="yellow" asset="puzzle">
           <h3>
             Elastyczny
             <br />
@@ -56,6 +47,16 @@ export default function Home() {
           </h3>
           <ArrowLink href="/rozszerzenia" size="md">
             Więcej informacji
+          </ArrowLink>
+        </FeatureBlock>
+        <FeatureBlock color="red" asset="youtube">
+          <h3>
+            248 sekund
+            <br />
+            dookoła szkoły
+          </h3>
+          <ArrowLink href="https://youtu.be/SexCpPPKOi4" size="md" newTab>
+            Obejrzyj film
           </ArrowLink>
         </FeatureBlock>
       </BlocksRow>
@@ -81,7 +82,7 @@ export default function Home() {
         </BlocksGrid>
       </Container>
       <BlocksRow>
-        <FeatureBlock color="blue">
+        <FeatureBlock color="blue" asset="files">
           <h3>
             Dokumenty
             <br />i do pobrania
@@ -90,7 +91,7 @@ export default function Home() {
             Zobacz
           </ArrowLink>
         </FeatureBlock>
-        <FeatureBlock color="green">
+        <FeatureBlock color="green" asset="list">
           <h3>
             Rekrutacja
             <br />

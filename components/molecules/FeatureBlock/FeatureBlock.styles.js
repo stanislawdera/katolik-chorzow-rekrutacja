@@ -19,4 +19,11 @@ export const FeatureBlock = styled.div`
   ${StyledArrowLink} {
     margin-top: auto;
   }
+
+  ${({ theme }) => theme.media.desktop} {
+    background-image: url("/assets/${({ asset }) => asset}.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: contain;
+  }
 `;

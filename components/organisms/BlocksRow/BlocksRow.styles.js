@@ -9,6 +9,10 @@ export const BlocksRow = styled.div`
     }
     ${FeatureBlock}:first-child {
       text-align: end;
+      background-position-x: 10%;
+    }
+    ${FeatureBlock}:nth-child(2) {
+      background-position-x: 90%;
     }
   }
 `;
