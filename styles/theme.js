@@ -1,0 +1,35 @@
+export const theme = {
+  spacing: {
+    sm: "10px",
+    md: "20px",
+    lg: "30px",
+    xl: "50px",
+  },
+  fontSizes: {
+    xxs: "14px",
+    xs: "16px",
+    sm: "20px",
+    md: "24px",
+    lg: "32px",
+    xl: "40px",
+    xxl: "48px",
+    xxxl: "96px",
+  },
+  media: {
+    tablet: "@media (min-width: 728px)",
+    desktop: "@media (min-width: 1024px)",
+  },
+  colors: {
+    primary: "#5a51a0",
+    primaryDark: "#382f7e",
+    light: "#f9f9f9",
+    yellow: "#ffca28",
+    yellowDark: "#ff8f00",
+    red: "#ff7043",
+    redDark: "#bf360c",
+    blue: "#3fbef8",
+    blueDark: "#2284b0",
+    green: "#5dc13a",
+    greenDark: "#397e3d",
+  },
+};
