@@ -9,11 +9,9 @@ import ReasonBlock from "components/molecules/ReasonBlock/ReasonBlock";
 import Icon from "@mdi/react";
 import {
   mdiAccountGroup,
-  mdiAlbum,
   mdiCheckDecagram,
   mdiImageFilterHdr,
   mdiMap,
-  mdiYoutube,
 } from "@mdi/js";
 import { BlocksGrid } from "components/molecules/BlocksGrid/BlocksGrid.styles";
 import { Heading } from "components/atoms/Heading/Heading.styles";
@@ -26,6 +24,22 @@ export default function Home() {
         <meta
           name="description"
           content="Najważniejsze informacje dla kandydatów w jednym miejscu!"
+        />
+        <meta
+          property="og:url"
+          content="https://rekrutacja.katolik-chorzow.edu.pl"
+        />
+        <meta
+          property="og:title"
+          content="Rekrutacja do Liceum Ogólnokształcącego"
+        />
+        <meta
+          property="og:description"
+          content="Najważniejsze informacje dla kandydatów"
+        />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/testpogotowia.appspot.com/o/rekrutacja-og-image.png?alt=media&token=6dc8485c-3a9c-4694-93af-99b0b8743c48"
         />
       </Head>
       <HeroHeader>
