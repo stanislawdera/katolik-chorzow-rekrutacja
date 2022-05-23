@@ -22,7 +22,7 @@ export default function StepByStepPage() {
         </Paragraph>
         <Box green>
           W systemie rekrutacji elektronicznej Katolik widnieje pod nazwą{" "}
-          <i>Publiczne Liceum Katolickie.</i>
+          <i>Publiczne Liceum Ogólnokształcące SRKAK w Chorzowie</i>.
         </Box>
         <DateBlock
           deadline="16 maja - 20 czerwca 15:00"
