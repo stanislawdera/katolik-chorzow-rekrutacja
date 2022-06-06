@@ -28,6 +28,10 @@ export default function DocumentsPage() {
             title="Karta zgłoszeniowa (DOC)"
             link="https://katolikchorzow-my.sharepoint.com/:w:/g/personal/it_katolik-chorzow_edu_pl/EaDmZDn_ftxDn8lVW9F7hEoB0dwvNrmFn6wp6dtjsJeO6g?e=h45q7R"
           />
+          <FileBlock
+            title="Klauzula informacyjna o przetwarzaniu danych osobowych (PDF)"
+            link="https://katolik-chorzow.edu.pl/wp-content/uploads/2021/05/klauzula_przetwarzanie_danych.pdf"
+          />
         </Flex>
       </Container>
     </Layout>
